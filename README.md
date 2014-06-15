@@ -69,6 +69,19 @@ The script will generate two dataset files in yoru current working directory:
     `For subject <id>, doing the activity <activity_name>, here are the average results for each variables: <variable1>, <variable2> .....`
 
 
+### Descriptive Variable Names
+
+All the variable names in the tidy dataset are long and descriptive. This is intentional to make the data contained in the variables obvious. e.g.
+
+avg_mean_time_body_acceleration_xaxis where,
+
+avg - Average of
+mean - Mean values (or standard deviation in case of "std")
+time - Time Domain (or frequency domain in case of "frequency")
+body - Measurements for the body movements (or "gravity" for the gravitational movement)
+acceleration - Linear Acceleration measurements (or angular velocity in case of "angular_velocity")
+xaxis - X axis measurements (or yaxis/zaxis)
+
 **Footnotes**
 
 <sup>1</sup> See "Tidy Data" by Hadley Wickham. https://github.com/hadley/tidy-data
