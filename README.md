@@ -46,9 +46,9 @@ Following steps are being performed by the script:
 
 Since the assignment specifies that only the mean and standard deviation data need to be utilized for the final dataset, following points were considered to generate the same in Step 4 above:
 
-    1. The features in the raw dataset with mean() or std() towards the end were only considered. e.g. tBodyAcc-mean()-X
-    2. Weighted averages containing the "Mean" string in its name were **NOT** considered. e.g. fBodyAcc-meanFreq()-X
-    3. Other calculated vectors containing "Mean in their name" like gravityMean were **NOT** considered. These vectors are used in the angle() function to get the angle between the vectors which is a distinct feature different from mean() and std(). e.g. angle(X,gravityMean)
+1. The features in the raw dataset with mean() or std() towards the end were only considered. e.g. tBodyAcc-mean()-X
+2. Weighted averages containing the "Mean" string in its name were **NOT** considered. e.g. fBodyAcc-meanFreq()-X
+3. Other calculated vectors containing "Mean in their name" like gravityMean were **NOT** considered. These vectors are used in the angle() function to get the angle between the vectors which is a distinct feature different from mean() and std(). e.g. angle(X,gravityMean)
 
 
 ### The Data Sets
@@ -60,12 +60,12 @@ The script will generate two dataset files in yoru current working directory:
 2. `final_avg_tidy_dataset.txt` - This is the **final output tidy dataset**. This is also uploaded to the Coursera assignment page and available for peer review. This dataset follows all the principles of tidy data as follows<sup>1</sup>:
 
 <!-- -->
-        1. Each variable forms a column.
-        2. Each observation forms a row.
-        3. Each table (or file) stores information about one observational type.
+    1. Each variable forms a column.
+    2. Each observation forms a row.
+    3. Each table (or file) stores information about one observational type.
 
-Each observation in the dataset forms a row. Each row should be read as:
-`For subject <id>, doing the activity <activity_name>, here are the average results for each variables: <variable1>, <variable2> .....`
+    Each observation in the dataset forms a row. Each row should be read as:
+    `For subject <id>, doing the activity <activity_name>, here are the average results for each variables: <variable1>, <variable2> .....`
 
 
 **Footnotes**
