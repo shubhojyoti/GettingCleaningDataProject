@@ -13,11 +13,12 @@ Here are the data for the project:
 
 This repository contains the files and data pertaining to the course project of the Coursera course "Getting and Cleaning Data". The repository contains the following files:
 
-1. README.md - This readme document.
-2. cleaned\_raw\_data/initial\_merged\_dataset.txt - This is the initial dataset generated after merging of individual data and labelling the variables.
-2. desc\_variable\_names.R - This R script creates a character vector containing the descriptive names for all the variables in the merged data set.
-3. run\_analysis.R - The main R script which when executed takes in the raw data, analyses it and generates the final tidy dataset file.
-4. tidy\_data/final\_avg\_tidy\_dataset.txt - The final tidy dataset output containing the average of all variables per subject per activity.
+1. Codebook.md - The codebook containing information on the data and variables in the dataset.
+2. README.md - This readme document.
+3. cleaned_raw_data/initial_merged_dataset.txt - This is the initial dataset generated after merging of individual data and labelling the variables.
+4. desc_variable_names.R - This R script creates a character vector containing the descriptive names for all the variables in the merged data set.
+5. run_analysis.R - The main R script which when executed takes in the raw data, analyses it and generates the final tidy dataset file.
+6. tidy_data/final_avg_tidy_dataset.txt - The final tidy dataset output containing the average of all variables per subject per activity.
 
 
 ### The analysis script
