@@ -35,7 +35,7 @@ The analysis script contains steps for downloading the data set from the source 
 
 The run\_analysis.R script is heavily commented to outline the method and steps that are being performed by the script. Please refer to the script to get the detailed steps.
 
-** The tidy dataset can be loaded to R (or R Studio) using the following **
+**The tidy dataset can be loaded to R (or R Studio) using the following**
 
 <!-- -->
     data <- read.table("tidy_data//final_avg_tidy_dataset.txt", header=TRUE)
